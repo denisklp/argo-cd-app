@@ -7,7 +7,7 @@ PLATFORM=linux/amd64
 
 BUILDER = docker
 
-TAG=mrfwdmail/k8sdiy
+TAG=denvasyliev/k8sdiy
 
 BUILD=$$(git rev-parse HEAD|cut -c1-7)
 
